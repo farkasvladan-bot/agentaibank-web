@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AgentAIBank — Philosophy and architecture.">
+  <meta name="theme-color" content="#d6dde5">
+  <title>AgentAIBank — Philosophy + Architecture</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-left">
+      <a href="index.html" class="logo"><img src="loga/nhand-icon.png" alt="Nhand logo"><span class="logo-text">Nhand</span></a>
+      <div class="main-nav">
+        <a class="main-nav-link" href="index.html">Home</a>
+        <a class="main-nav-link" href="problem.html">Problem + Cases</a>
+        <a class="main-nav-link active" href="architecture.html">Architecture</a>
+        <a class="main-nav-link" href="roadmap.html">Roadmap + EU AI Act</a>
+        <a class="main-nav-link" href="who.html">Who</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="cs">CS</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <div class="patent-badge">
+        <span class="patent-dot"></span>
+        <span data-i18n="patentBadge">Patent Pending</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-hero-bg">
+    <img src="loga/nhand.png" alt="" aria-hidden="true">
+    <div class="page-hero-overlay"></div>
+  </div>
+
+  <section class="section" id="philosophy" style="padding-top: 140px;">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s02Label">02 — Filozofie</div>
+      <h2 class="reveal" data-i18n="s02Title">Ne platební systém. Architektura odpovědnosti.</h2>
+      <p class="reveal" data-i18n="s02P1">Všichni v Silicon Valley staví trubky, aby si stroje povídaly. Protokoly, aby se agenti našli. Frameworky, aby spolupracovali.</p>
+      <p class="reveal" data-i18n="s02P2">Nikdo nestaví vrstvu, která řekne: <strong>kdo je zodpovědný, když se něco posere.</strong></p>
+      <p class="reveal" data-i18n="s02P3">My ano.</p>
+      <p class="reveal" data-i18n="s02P4">Ne proto, že je to sexy. Není. Infrastruktura pro vypořádání je ta nejnudnější, nejneviditelnější a nejkritičtější vrstva v každé ekonomice. Platilo to pro lidi v roce 1472. Platí to pro stroje teď.</p>
+
+      <blockquote class="reveal">
+        <p data-i18n="s02Quote">Pokud žádná změna stavu není validní bez přiřazené odpovědnosti — pak každá akce má vlastníka. Každá transakce má stopu. A každý stroj má kůži ve hře.</p>
+        <p class="quote-source" data-i18n="s02QuoteSource">— Základní designový princip</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section" id="not-us">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s02bLabel">02b — Co nejsme</div>
+      <p class="not-section reveal" data-i18n="s02bText">Nejsme blockchain. Nejsme startup. Nejsme platební systém. Nehledáme investory. Neděláme PowerPointy. Nepotřebujeme vaše peníze. Potřebujeme vaše inženýry.</p>
+    </div>
+  </section>
+
+  <section class="section" id="what-we-build">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s03Label">03 — Co stavíme</div>
+      <h2 class="reveal" data-i18n="s03Title">Pravidla jsou jednoduchá.</h2>
+
+      <div class="principles">
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">01</span>
+            <span data-i18n="pr01Title">Atomické. Všechno nebo nic.</span>
+          </div>
+          <p data-i18n="pr01Text">Transakce proběhne POUZE když VŠECHNY strany splní VŠECHNY podmínky. Když jedna selže — všechno se vrátí. Žádné mezistaty. Žádné "ups." Žádné "opravíme to potom."</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">02</span>
+            <span data-i18n="pr02Title">N-stran. Ne jen dvě.</span>
+          </div>
+          <p data-i18n="pr02Text">Reálný svět není bilaterální. Auto, síť, pojišťovna, trh, regulátor — všichni v jedné transakci. 2 strany. Nebo 200. Protokolu je to jedno.</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">03</span>
+            <span data-i18n="pr03Title">Odpovědné. Od základu.</span>
+          </div>
+          <p data-i18n="pr03Text">Každá akce kryptograficky podepsaná. Každý účastník identifikovaný. Každá změna stavu přiřazená. Ne jako funkce. Jako požadavek. Bez podpisu žádná transakce.</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">04</span>
+            <span data-i18n="pr04Title">Compliantní. Ne dodatečně.</span>
+          </div>
+          <p data-i18n="pr04Text">GDPR. EU AI Act. Právo na výmaz. Audit trail. Kill-switch. Zabudované v protokolu, ne přilepené. Protože regulátora nezajímá tvoje architektura — zajímá ho tvoje odpovědnost.</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">05</span>
+            <span data-i18n="pr05Title">Žádný blockchain. Žádný bullshit.</span>
+          </div>
+          <p data-i18n="pr05Text">Globální konsensus milionů pro transakci mezi třemi? To není architektura. To je divadlo. Používáme lokální konsensus mezi přímými účastníky. Milisekundy, ne minuty. HTTP, ne hype.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="origin">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s03bLabel">03b — Jak to vzniklo</div>
+      <p class="reveal" data-i18n="s03bP1">Neřešili jsme machine economy. Řešili jsme svůj malý problém — jak udělat, aby normální lidi mohli používat AI, aniž by věděli co je API. A náhodou jsme vyřešili ten velký.</p>
+      <p class="reveal" data-i18n="s03bP2">Nikdo v San Francisku tohle nehledal zdola. Všichni řešili trilionový problém top-down. McKinsey reporty za dva miliony. Armády analytiků. A výsledek? Paralýza. Příliš velké = nikdy nezačnou.</p>
+      <p class="reveal" data-i18n="s03bP3">My jsme začali s jedním problémem. A skončili s protokolem.</p>
+    </div>
+  </section>
+
+  <footer class="section footer" id="contact">
+    <p class="footer-cta reveal" data-i18n="footerCta">Pokud ti tohle rezonuje — a jsi někdo, kdo staví infrastrukturu, ne hype — tak bychom si měli promluvit.</p>
+    <div class="footer-links reveal">
+      <a href="mailto:farky@farky.tech" class="footer-link">farky@farky.tech</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+    </div>
+    <p class="footer-quote reveal"><span data-i18n="footerQuote">"Stroje potřebují banku. Lidi potřebují rovnici."</span> — <a href="https://sumofhuman.com" target="_blank" rel="noopener" data-i18n="footerQuoteSource">sumofhuman.com</a></p>
+    <p class="footer-copy" data-i18n="footerCopy">© 2026 Agent AI Bank — a farky.tech project | Ostrava, Czech Republic</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
