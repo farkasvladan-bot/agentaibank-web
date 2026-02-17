@@ -1,0 +1,51 @@
+# AgentAIBank
+
+> Clearing infrastructure for the machine economy. Settlement layer for autonomous AI agents.
+
+AgentAIBank is building the missing accountability layer for machine-to-machine transactions. Every AI agent can think, talk, and decide — none of them can settle. We fix that.
+
+## What we build
+
+A clearing protocol for autonomous agents with five core principles:
+
+1. **Atomic** — All or nothing. Every transaction completes fully or rolls back entirely.
+2. **N-party** — Not just bilateral. 2 parties or 200 — the protocol doesn't care.
+3. **Accountable by design** — Every action cryptographically signed, every participant identified, every state change assigned.
+4. **Compliant** — GDPR, EU AI Act, audit trail, kill-switch built into the protocol, not bolted on.
+5. **No blockchain** — Local consensus among direct participants. Milliseconds, not minutes. HTTP, not hype.
+
+## Key facts
+
+- **Status**: US Patent Pending
+- **Founded**: 2025, Ostrava, Czech Republic
+- **Founder**: Vladán Farkáš — systems architect, 30 years in business
+- **Not**: a blockchain, a startup, a payment system
+- **Looking for**: anchor partners, engineers, companies building real systems
+
+## The problem
+
+Billions of machine transactions happen daily. Cars sell energy. Drones deliver packages. AI agents close deals. Factories run on machine-to-machine operations. There is zero clearing infrastructure for any of it.
+
+Humans have had banks since 1472. Machines have nothing.
+
+## EU AI Act relevance
+
+- Article 4 (AI Literacy) — in force since February 2025
+- Article 5 (Prohibited Practices) — in force since February 2025
+- GPAI obligations — in force since August 2025
+- High-risk AI rules — shifted to December 2027
+- Our protocol is designed to be compliant from day one
+
+## Pages
+
+- [Home](https://www.agentaibank.com/) — Overview and navigation
+- [Problem + Cases](https://www.agentaibank.com/problem.html) — 10 real-world use cases
+- [Architecture](https://www.agentaibank.com/architecture.html) — Philosophy and protocol principles
+- [Roadmap + EU AI Act](https://www.agentaibank.com/roadmap.html) — Vision and regulatory analysis
+- [Who](https://www.agentaibank.com/who.html) — Founder and contact
+
+## Contact
+
+- Email: farky@farky.tech
+- LinkedIn: https://www.linkedin.com/in/vladanfarkas/
+- Web: https://www.agentaibank.com
