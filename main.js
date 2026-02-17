@@ -144,6 +144,17 @@ const translations = {
     s07P3: 'Já stavím instalatérku. A instalatérka funguje.',
     usPatentPending: 'US Patent Pending',
 
+    // TOC (homepage)
+    tocLabel: 'Stránky',
+    toc01Title: 'Problém + případy',
+    toc01Text: 'Miliardy strojových transakcí denně. Žádná clearing vrstva. 10 reálných scénářů, kde stroje jednají — a nikdo za to nenese odpovědnost.',
+    toc02Title: 'Filozofie + architektura',
+    toc02Text: 'Ne platební systém. Architektura odpovědnosti. Pět principů protokolu, který řeší to, co blockchain slíbil a nesplnil.',
+    toc03Title: 'Plán + zákon EU o umělé inteligenci',
+    toc03Text: 'Co platí teď. Co se posunulo. A proč odklad regulace není úleva, ale okno pro ty, kdo začnou stavět dnes.',
+    toc04Title: 'Kdo + kontakt',
+    toc04Text: 'Systémový architekt z české vesnice s 200 lidmi. Žádný PhD. Žádný investor. Jen přesvědčení, že stroje potřebují instalatérku.',
+
     // Footer
     footerCta: 'Pokud ti tohle rezonuje — a jsi někdo, kdo staví infrastrukturu, ne hype — tak bychom si měli promluvit.',
     footerQuote: '"Stroje potřebují banku. Lidi potřebují rovnici."',
@@ -277,6 +288,17 @@ const translations = {
     s07P2: 'Nobody in San Francisco is solving this. Not because they can\'t. But because they\'re too busy building the <em>sexy</em> parts.',
     s07P3: 'I build the plumbing. And the plumbing works.',
     usPatentPending: 'US Patent Pending',
+
+    // TOC (homepage)
+    tocLabel: 'Pages',
+    toc01Title: 'Problem + cases',
+    toc01Text: 'Billions of machine transactions daily. No clearing layer. 10 real scenarios where machines act — and nobody is accountable.',
+    toc02Title: 'Philosophy + architecture',
+    toc02Text: 'Not a payment system. An architecture of accountability. Five protocol principles that solve what blockchain promised and never delivered.',
+    toc03Title: 'Roadmap + EU AI Act',
+    toc03Text: 'What\'s in force now. What shifted. And why the regulatory delay isn\'t relief — it\'s a window for those who start building today.',
+    toc04Title: 'Who + contact',
+    toc04Text: 'A systems architect from a Czech village of 200 people. No PhD. No investors. Just conviction that machines need plumbing.',
 
     footerCta: 'If this resonates — and you\'re someone who builds infrastructure, not hype — we should talk.',
     footerQuote: '"Machines need a bank. Humans need an equation."',
