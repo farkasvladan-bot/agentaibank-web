@@ -59,7 +59,7 @@ body {
     radial-gradient(circle at 24% 14%, rgba(255, 255, 255, 0.62), transparent 34%),
     radial-gradient(circle at 74% 8%, rgba(255, 255, 255, 0.3), transparent 30%),
     linear-gradient(140deg, #f3f6f9 0%, #d6dde5 26%, #bcc5cf 48%, #e8edf3 72%, #c5ced8 100%),
-    url("loga/metal-texture.png");
+    url("loga/metal-texture.jpg");
   background-size: auto, auto, auto, auto, 520px 520px;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
   background-blend-mode: normal, normal, normal, normal, soft-light;
@@ -249,6 +249,90 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+/* --- HAMBURGER TOGGLE --- */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  z-index: 1010;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 1px;
+  transition: var(--transition);
+  transform-origin: center;
+}
+
+.nav-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* --- MOBILE NAV OVERLAY --- */
+.mobile-nav-overlay {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background: rgba(231, 237, 244, 0.97);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 90px 32px 40px;
+    gap: 8px;
+    border-left: 1px solid var(--border);
+    box-shadow: -8px 0 32px rgba(17, 41, 68, 0.08);
+    transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1005;
+    display: flex;
+  }
+
+  .main-nav.open {
+    right: 0;
+  }
+
+  .main-nav-link {
+    font-size: 0.82rem;
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .main-nav-link:hover,
+  .main-nav-link.active {
+    background: var(--glow-dim);
+  }
 }
 
 .lang-switcher {
@@ -964,9 +1048,7 @@ blockquote .quote-source {
     display: none;
   }
 
-  .main-nav {
-    display: none;
-  }
+  /* .main-nav is handled by hamburger toggle above */
 
   .hero-bg-img,
   .page-hero-bg img {
